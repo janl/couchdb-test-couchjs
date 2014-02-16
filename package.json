@@ -1,0 +1,16 @@
+{
+  "name": "couchdb-test-couchjs",
+  "version": "1.0.0",
+  "description": "Test Suite for couchjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "couchdb",
+    "couchjs",
+    "test"
+  ],
+  "author": "Jan Lehnardt <jan@apache.org>",
+  "license": "Apache 2 License"
+}
