@@ -12,5 +12,9 @@
     "test"
   ],
   "author": "Jan Lehnardt <jan@apache.org>",
-  "license": "Apache 2 License"
+  "license": "Apache 2 License",
+  "dependencies": {
+    "jstest": "~1.0.4",
+    "async": "~0.2.10"
+  }
 }

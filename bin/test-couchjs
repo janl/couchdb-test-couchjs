@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+var args = process.argv.slice(2);
+if(!args[0] || !args[1]) {
+  console.log('Usage: test-couchdb path/to/couchjs path/to/main.js');
+  exit(1);
+}
+
+console.log('Testing %s %s', args[0], args[1]);
+
+var JS = require('jstest');
+
+// require('../lib/tests/reset.js');
+require('../lib/tests/map.js');
+
+JS.Test.autorun();
