@@ -10,7 +10,7 @@ console.log('Testing %s %s', args[0], args[1]);
 
 var JS = require('jstest');
 
-// require('../lib/tests/reset.js');
+require('../lib/tests/reset.js');
 require('../lib/tests/map.js');
 
 JS.Test.autorun();
