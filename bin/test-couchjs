@@ -17,5 +17,6 @@ require('../lib/tests/design_doc.js');
 require('../lib/tests/validation.js');
 require('../lib/tests/show.js');
 require('../lib/tests/error.js');
+require('../lib/tests/changes_filter.js');
 
 JS.Test.autorun();
