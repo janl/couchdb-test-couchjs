@@ -15,6 +15,7 @@
   "license": "Apache 2 License",
   "dependencies": {
     "jstest": "~1.0.4",
-    "async": "~0.2.10"
+    "async": "~0.2.10",
+    "underscore": "~1.6.0"
   }
 }
