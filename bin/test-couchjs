@@ -13,5 +13,7 @@ var JS = require('jstest');
 require('../lib/tests/reset.js');
 require('../lib/tests/map.js');
 require('../lib/tests/reduce.js');
+require('../lib/tests/design_doc.js');
+require('../lib/tests/validation.js');
 
 JS.Test.autorun();
