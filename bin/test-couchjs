@@ -19,5 +19,6 @@ require('../lib/tests/show.js');
 require('../lib/tests/error.js');
 require('../lib/tests/changes_filter.js');
 require('../lib/tests/update.js');
+require('../lib/tests/list.js');
 
 JS.Test.autorun();
